@@ -1,6 +1,17 @@
 # My-rxvt-config
 My configuration for the rxvt terminal
 ![What it looks like](https://raw.githubusercontent.com/BeanGreen247/My-rxvt-config/master/Screenshot%20from%202019-12-02%2020-36-33.png)
+
+## Installation
+To install rxvt run
+```bash
+sudo apt install rxvt
+```
+Get the config and apply it
+```bash
+wget -O ~/.Xresources https://raw.githubusercontent.com/BeanGreen247/My-rxvt-config/master/Xresources
+sudo xrdb -merge ~/.Xresources
+```
 ## The config
 ```bash
 URxvt.font: xft:mono:bold:size=10

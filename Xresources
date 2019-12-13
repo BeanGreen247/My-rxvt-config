@@ -3,10 +3,11 @@ URxvt.clipboard.autocopy: true
 URxvt.keysym.M-c: perl:clipboard:copy
 URxvt.keysym.M-v: perl:clipboard:paste
 URxvt.scrollBar: false
+URxvt.saveLines:0
 
 ! special
 *.foreground:   #ffffff
-*.background:   #000000
+*.background:   #1d1f21
 *.cursorColor:  #ffffff
 
 ! black
@@ -19,26 +20,26 @@ URxvt.scrollBar: false
 
 ! green
 *.color2:       #008000
-*.color10:      #00bd68
+*.color10:      #00b92c
 
 ! yellow
-*.color3:       #fbff00
-*.color11:      #fbff00
+*.color3:       #ffb600
+*.color11:      #ffb600
 
 ! blue
-*.color4:       #005397
-*.color12:      #005397
+*.color4:       #0066ff
+*.color12:      #0066ff
 
 ! magenta
-*.color5:       #73527d
-*.color13:      #73527d
+*.color5:       #ff00cb
+*.color13:      #ff00cb
 
 ! cyan
-*.color6:       #009480
-*.color14:      #009480
+*.color6:       #00ffdd
+*.color14:      #00ffdd
 
 ! white
-*.color7:       #37928a
+*.color7:       #00ffe9
 *.color15:      #ffffff
 
 !! Common Keybinds for Navigations

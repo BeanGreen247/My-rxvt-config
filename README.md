@@ -20,6 +20,8 @@ URxvt.keysym.M-c: perl:clipboard:copy
 URxvt.keysym.M-v: perl:clipboard:paste
 URxvt.scrollBar: false
 URxvt.saveLines:0
+URxvt.transparent: true
+URxvt.shading:20
 
 ! special
 *.foreground:   #ffffff

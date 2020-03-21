@@ -9,7 +9,7 @@ sudo apt install -y rxvt wget
 ```
 Get the config and apply it
 ```bash
-wget -O ~/.Xresources https://raw.githubusercontent.com/BeanGreen247/My-rxvt-config/master/Xresources
+wget -O ~/.Xresources https://raw.githubusercontent.com/BeanGreen247/dotfiles/master/rxvt/Xresources
 sudo xrdb -merge ~/.Xresources
 ```
 ## The config

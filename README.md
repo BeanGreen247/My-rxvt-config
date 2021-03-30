@@ -12,6 +12,10 @@ Get the config and apply it
 wget -O ~/.Xresources https://raw.githubusercontent.com/BeanGreen247/dotfiles/master/rxvt/Xresources
 sudo xrdb -merge ~/.Xresources
 ```
+To get the Hermit font make sure to install Nerd Fonts
+```
+yay -S nerd-fonts-complete
+```
 ## The config
 ```bash
 URxvt.clipboard.autocopy: true

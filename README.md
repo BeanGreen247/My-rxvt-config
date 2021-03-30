@@ -13,7 +13,7 @@ wget -O ~/.Xresources https://raw.githubusercontent.com/BeanGreen247/dotfiles/ma
 sudo xrdb -merge ~/.Xresources
 ```
 To get the Hermit font make sure to install Nerd Fonts
-```
+```bash
 yay -S nerd-fonts-complete
 ```
 ## The config

@@ -5,7 +5,7 @@ My configuration for the rxvt terminal
 ## Installation
 To install rxvt run
 ```bash
-sudo apt install -y rxvt wget
+sudo pacman -S rxvt-unicode wget
 ```
 Get the config and apply it
 ```bash
